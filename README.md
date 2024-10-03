@@ -48,6 +48,11 @@ To use this package, you need the following integrations:
 - [Solcast integration by oziee](https://github.com/BJReplay/ha-solcast-solar)
 - [Energi Data Service integration by MTrab](https://github.com/MTrab/energidataservice)
 
+To use this package, you need to enable the following entities:
+- sensor.inverter_active_power_control
+
+Go to Settings > Devices & services > Entities. Click on Filter > Status and check of Disabled. Search for the enteties above and enable them.
+
 ### Optional integrations 
 - [Huawei Solar PEES package by JensenNick](https://github.com/JensenNick/huawei_solar_pees) (optional but recommended)
 - [Smoothing Analytics Sensors by woopstar](https://github.com/woopstar/smoothing_analytics_sensors) (optional for now)<br><br>
